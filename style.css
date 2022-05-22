@@ -17,10 +17,9 @@
     border-radius: 0 0.5em 0.5em 0;
     flex-wrap: nowrap;
     height: 100%;
-    padding:.5em;
+    padding:.4em;
     display: flex;
     flex: 0 1 auto;
-    font-family: 'InterMedium';
     font-size: small;
     letter-spacing: 0.04em;
 }

@@ -1,6 +1,3 @@
-<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/inter-ui" type="text/css"/> 
-<link rel="stylesheet" href="style.css"/>
-
 # JayExec
 
 ### Currently using
@@ -92,7 +89,7 @@
 </div>
 
 ### Looking forward to learn
-<div class="badge csharp">
+<div class="badge vue">
     <div class="badgeiconspace" style="background-color:white">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
     </div>
@@ -100,7 +97,7 @@
         Vue
     </div>
 </div>
-<div class="badge csharp">
+<div class="badge react">
     <div class="badgeiconspace" style="background-color:white">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuetify/vuetify-original.svg" />
     </div>
@@ -108,3 +105,109 @@
         Vuetify
     </div>
 </div>
+
+<style>
+.badge {
+    border-radius: 0.6em;
+    display: inline-flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    align-self: auto;
+    align-items: flex-start;
+    color:white;
+    flex-wrap: nowrap;
+    height: 2em;
+    margin: 0.5em 0.5em 0.5em 0;
+    background-color: black;
+    vertical-align: bottom;
+}
+
+.badgeinner {
+    border-radius: 0 0.5em 0.5em 0;
+    flex-wrap: nowrap;
+    height: 100%;
+    padding:.4em;
+    display: flex;
+    flex: 0 1 auto;
+    font-size: small;
+    letter-spacing: 0.04em;
+}
+
+.badgeiconspace {
+    margin: 2px;
+    border-radius: 0.5em 0 0 0.5em;
+    height: calc(2em - 4px);
+    padding:.25em;
+    display: inline-flex;
+    vertical-align: middle;
+    background-color: white;
+    width: calc(height);
+}
+
+.uppa {
+    background-color:transparent;
+    border:2px orange solid;
+    color:darkorange;
+}
+
+.javatalk {
+    background-color:transparent;
+    border:2px solid cornflowerblue;
+    color:navy;
+}
+
+.js {
+    background-color:#eeda4c;
+    color:black;
+}
+
+.react {
+    background-color:#53d2f9;
+    color:black;
+}
+
+.npm {
+    background-color: red;
+    color: white;
+}
+
+.java {
+    background-color: #0d6bb7;
+    color: whitesmoke;
+}
+
+.maven {
+    background-image: linear-gradient(to bottom left, rgb(122,61,173), rgb(180,0,0));
+    color:whitesmoke;
+}
+
+.cpp {
+    background-image: linear-gradient(to top, #0d6bb7, rgb(180,0,0));;
+    color: whitesmoke;
+}
+
+.csharp {
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+
+.vue {
+    background-color: #44b57c;
+    color: black;
+}
+
+.vuetify {
+    background-color: #7cc;
+    color: black;
+}
+
+.mssql {
+    background-color: #555;
+    color: white;
+}
+
+.ts {
+    background-color: #16c;
+    color: white;
+}
+</style>
